@@ -4,6 +4,3 @@
 /* Fill the homepage Army of Help image frame without exposing its grey background. */
 .army-home-image{height:420px;min-height:0;background:transparent}
 .army-home-image img{width:100%;height:100%;object-fit:cover;object-position:center}
-
-/* Embedded Independent Agent listing display */
-.listing-embed{width:100%;border:1px solid var(--line);background:#fff;overflow:hidden}.listing-embed iframe{display:block;width:100%;height:900px;border:0}@media(max-width:860px){.listing-embed iframe{height:750px}}
