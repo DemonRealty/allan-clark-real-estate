@@ -35,9 +35,12 @@ def main():
             continue
         seen.add(href)
         img = a.find("img")
+        parent = a.find_parent(["article", "li", "div"])
+        surrounding = parent.get_text(" ", strip=True)[:500] if parent else ""
         candidates.append({
             "url": href,
             "link_text": a.get_text(" ", strip=True)[:180],
+            "surrounding_text": surrounding,
             "image": urljoin(SOURCE, img.get("src", "")) if img and img.get("src") else None,
         })
     result = {
