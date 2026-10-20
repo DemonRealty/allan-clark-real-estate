@@ -1,0 +1,60 @@
+{
+  "source": "https://independentagent.co.nz/team-member/allan-clark-297/",
+  "last_verified": "2026-10-20",
+  "properties": [
+    {
+      "url": "https://independentagent.co.nz/listing/62-glen-marine-parade-glendene-13241/",
+      "address": "62 Glen Marine Parade, Glendene",
+      "status": "for-sale",
+      "verified": true,
+      "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
+      "price": "$999,000",
+      "image": null
+    },
+    {
+      "url": "https://independentagent.co.nz/listing/38a-sunnymead-road-glen-innes-13221/",
+      "address": "38A Sunnymead Road, Glen Innes",
+      "status": "for-sale",
+      "verified": true,
+      "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
+      "price": "By Negotiation",
+      "image": null
+    },
+    {
+      "url": "https://independentagent.co.nz/listing/303-26c-racecourse-parade-avondale-12868/",
+      "address": "303/26C Racecourse Parade, Avondale",
+      "status": "sold",
+      "verified": true,
+      "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
+      "price": null,
+      "image": null
+    },
+    {
+      "url": "https://independentagent.co.nz/listing/12-briden-drive-tikipunga-12911/",
+      "address": "12 Briden Drive, Tikipunga",
+      "status": "sold",
+      "verified": true,
+      "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
+      "price": null,
+      "image": null
+    },
+    {
+      "url": "https://independentagent.co.nz/listing/5-149-rangatira-road-beach-haven-12238/",
+      "address": "5/149 Rangatira Road, Beach Haven",
+      "status": "sold",
+      "verified": true,
+      "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
+      "price": null,
+      "image": null
+    },
+    {
+      "url": "https://independentagent.co.nz/listing/6-61a-birkdale-road-birkdale-12241/",
+      "address": "6/61A Birkdale Road, Birkdale",
+      "status": "sold",
+      "verified": true,
+      "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
+      "price": null,
+      "image": null
+    }
+  ]
+}
