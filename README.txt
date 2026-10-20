@@ -6,7 +6,7 @@ HOW TO PREVIEW
 3. Double-click index.html.
 
 INCLUDED
-Homepage, About Allan, Independent/eXp + V2, Army of Help, Sold Homes, Journal, two starter articles, Contact/Appraisal, mobile navigation.
+Homepage, About Allan, Independent/eXp, Army of Help, Sold Homes, Contact/Appraisal, mobile navigation.
 
 CONTACT DETAILS USED
 027 360 2667
