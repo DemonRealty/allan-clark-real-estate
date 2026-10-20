@@ -9,7 +9,7 @@
       "verified": true,
       "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
       "price": "$999,000",
-      "image": null
+      "image": "assets/property-photos/13241.png"
     },
     {
       "url": "https://independentagent.co.nz/listing/38a-sunnymead-road-glen-innes-13221/",
@@ -18,7 +18,7 @@
       "verified": true,
       "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
       "price": "By Negotiation",
-      "image": null
+      "image": "assets/property-photos/13221.png"
     },
     {
       "url": "https://independentagent.co.nz/listing/303-26c-racecourse-parade-avondale-12868/",
@@ -27,7 +27,7 @@
       "verified": true,
       "verification_basis": "Agent correction: property remains for sale (2026-10-20)",
       "price": null,
-      "image": null
+      "image": "assets/property-photos/12868.png"
     },
     {
       "url": "https://independentagent.co.nz/listing/12-briden-drive-tikipunga-12911/",
@@ -36,7 +36,7 @@
       "verified": true,
       "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
       "price": null,
-      "image": null
+      "image": "assets/property-photos/12911.png"
     },
     {
       "url": "https://independentagent.co.nz/listing/5-149-rangatira-road-beach-haven-12238/",
@@ -45,7 +45,7 @@
       "verified": true,
       "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
       "price": null,
-      "image": null
+      "image": "assets/property-photos/12238.jpg"
     },
     {
       "url": "https://independentagent.co.nz/listing/6-61a-birkdale-road-birkdale-12241/",
@@ -54,7 +54,7 @@
       "verified": true,
       "verification_basis": "Agent-provided classification; listing URL confirmed in 2026-10-20 retrieval",
       "price": null,
-      "image": null
+      "image": "assets/property-photos/12241.jpg"
     }
   ]
 }
