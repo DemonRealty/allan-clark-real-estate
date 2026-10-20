@@ -13,6 +13,7 @@
     for(const p of properties){
       const card=document.createElement('article');card.className='property-card';
       const a=document.createElement('a');a.href=p.url;a.target='_blank';a.rel='noopener noreferrer';
+      if(!p.image){const placeholder=document.createElement('div');placeholder.className='property-photo-placeholder';placeholder.textContent=p.status==='sold'?'Recently Sold':'For Sale';a.append(placeholder);}
       if(p.image){const img=document.createElement('img');img.src=p.image;img.alt='Property at '+p.address;img.loading='lazy';a.append(img);}
       const info=document.createElement('div');info.className='property-card-body';
       const title=document.createElement('h3');title.textContent=p.address;info.append(title);
