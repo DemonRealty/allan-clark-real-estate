@@ -134,6 +134,17 @@ def main():
         for listing_id, url in links.items():
             if listing_id in existing:
                 item = existing[listing_id]
+                if not item.get('verified'):
+                    try:
+                        ready = build_new_listing(session, url, status)
+                    except (requests.RequestException, ValueError, OSError) as exc:
+                        print('Still awaiting verification:', url, str(exc))
+                        ready = None
+                    if ready:
+                        item.update(ready)
+                        published_count += 1
+                        changed = True
+                        print('Published previously staged listing:', item['address'])
                 if item.get("status") != status:
                     print("Status change:", item["address"], item.get("status"), "->", status)
                     item["status"] = status
