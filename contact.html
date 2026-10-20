@@ -1,1 +1,42 @@
-<!doctype html><html lang="en-NZ"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact | Allan Clark Real Estate</title><meta name="description" content="Contact Allan Clark or request a free property appraisal."><link rel="stylesheet" href="assets/site.css"></head><body><header class="site-header"><div class="nav-wrap"><a class="brand" href="index.html"><strong>ALLAN CLARK</strong><span>REAL ESTATE</span></a><button class="menu">Menu</button><nav class="nav"><a href="about.html">About Allan</a><a href="independent.html">Independent</a><a href="army.html">Army of Help</a><a href="sold.html">Sold Homes</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Free appraisal</a></nav></div></header><main><section class="page-hero"><div class="section narrow"><div class="kicker">Contact</div><h1>Let’s talk property.</h1><p>Whether you’re thinking of selling next month or three years from now, a good plan is useful long before the signboard goes up.</p></div></section><section class="section contact-grid"><div><h2>Allan Clark</h2><p><strong>Phone</strong><br><a href="tel:0273602667">027 360 2667</a></p><p><strong>Email</strong><br><a href="mailto:allan.clark@iagent.co.nz">allan.clark@iagent.co.nz</a></p><p>Independent Agent · Powered by eXp Realty<br>Auckland, New Zealand</p></div><div class="contact-box"><h3>Request a free appraisal</h3><form action="mailto:allan.clark@iagent.co.nz" method="post" enctype="text/plain"><label>Name<input name="Name" required></label><label>Phone<input name="Phone"></label><label class="full">Email<input name="Email" type="email" required></label><label class="full">Property address<input name="Property address"></label><label class="full">Anything you’d like me to know<textarea name="Message"></textarea></label><div class="full"><button class="btn dark" type="submit">Send enquiry</button></div></form><p class="small">For this first version, the button opens the visitor’s email app. We can connect a proper free form when we publish.</p></div></section></main><footer><div class="footer-grid"><div><a class="brand" href="index.html"><strong>ALLAN CLARK</strong><span>REAL ESTATE</span></a><p class="small">Independent Agent — powered by eXp Realty.</p><p class="small">Licensed salesperson under the Real Estate Agents Act 2008.</p></div><div><strong>Contact</strong><p><a href="tel:0273602667">027 360 2667</a><br><a href="mailto:allan.clark@iagent.co.nz">allan.clark@iagent.co.nz</a></p></div><div><strong>Explore</strong><p><a href="contact.html">Free appraisal</a></p><p class="small">© <span data-year></span> Allan Clark Real Estate</p></div></div></footer><script src="assets/site.js"></script></body></html>
+<!doctype html><html lang="en-NZ"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact | Allan Clark Real Estate</title><meta name="description" content="Contact Allan Clark or request a free property appraisal."><link rel="stylesheet" href="assets/site.css"></head><body><header class="site-header"><div class="nav-wrap"><a class="brand" href="index.html"><strong>ALLAN CLARK</strong><span>REAL ESTATE</span></a><button class="menu">Menu</button><nav class="nav"><a href="about.html">About Allan</a><a href="independent.html">Independent</a><a href="army.html">Army of Help</a><a href="sold.html">Sold Homes</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Free appraisal</a></nav></div></header><main><section class="page-hero"><div class="section narrow"><div class="kicker">Contact</div><h1>Let’s talk property.</h1><p>Whether you’re thinking of selling next month or three years from now, a good plan is useful long before the signboard goes up.</p></div></section><section class="section contact-grid"><div><h2>Allan Clark</h2><p><strong>Phone</strong><br><a href="tel:0273602667">027 360 2667</a></p><p><strong>Email</strong><br><a href="mailto:allan.clark@iagent.co.nz">allan.clark@iagent.co.nz</a></p><p>Independent Agent · Powered by eXp Realty<br>Auckland, New Zealand</p></div><div class="contact-box"><h3>Request a free appraisal</h3><form id="appraisal-form" action="https://api.web3forms.com/submit" method="POST"><input type="hidden" name="access_key" value="07885976-c66e-488e-8638-e95e1d475dbd"><input type="hidden" name="subject" value="New property appraisal enquiry — Allan Clark Real Estate"><input type="hidden" name="from_name" value="Allan Clark Real Estate Website"><input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true"><label>Name<input name="name" autocomplete="name" required></label><label>Phone<input name="Phone" autocomplete="tel"></label><label class="full">Email<input name="email" type="email" autocomplete="email" required></label><label class="full">Property address<input name="Property address" autocomplete="street-address"></label><label class="full">Anything you’d like me to know<textarea name="Message"></textarea></label><div class="full"><button class="btn dark" type="submit">Send enquiry</button><p id="appraisal-status" role="status" aria-live="polite" style="margin-top:1rem" hidden></p></div></form><p class="small">Your enquiry will be submitted securely through our enquiry service. Allan will be in touch as soon as possible.</p></div></section></main><footer><div class="footer-grid"><div><a class="brand" href="index.html"><strong>ALLAN CLARK</strong><span>REAL ESTATE</span></a><p class="small">Independent Agent — powered by eXp Realty.</p><p class="small">Licensed salesperson under the Real Estate Agents Act 2008.</p></div><div><strong>Contact</strong><p><a href="tel:0273602667">027 360 2667</a><br><a href="mailto:allan.clark@iagent.co.nz">allan.clark@iagent.co.nz</a></p></div><div><strong>Explore</strong><p><a href="contact.html">Free appraisal</a></p><p class="small">© <span data-year></span> Allan Clark Real Estate</p></div></div></footer><script src="assets/site.js"></script><script>
+(function () {
+  const form = document.getElementById('appraisal-form');
+  if (!form) return;
+  const button = form.querySelector('button[type="submit"]');
+  const status = document.getElementById('appraisal-status');
+  form.addEventListener('submit', async function (event) {
+    event.preventDefault();
+    if (!form.reportValidity()) return;
+    if (!form.elements.access_key.value || form.elements.access_key.value === 'REPLACE_WITH_WEB3FORMS_ACCESS_KEY') {
+      status.textContent = 'The enquiry form is not configured yet. Please email allan.clark@iagent.co.nz directly.';
+      status.style.color = '#a12828';
+      status.hidden = false;
+      return;
+    }
+    button.disabled = true;
+    button.textContent = 'Sending…';
+    status.hidden = true;
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      });
+      const result = await response.json();
+      if (!response.ok || result.success !== true) {
+        throw new Error('Submission was not accepted');
+      }
+      form.reset();
+      status.textContent = 'Thank you. Your enquiry has been submitted. Allan will be in touch shortly.';
+      status.style.color = '#176534';
+    } catch (error) {
+      status.textContent = 'Sorry, we could not submit your enquiry. Please try again or email allan.clark@iagent.co.nz directly.';
+      status.style.color = '#a12828';
+    } finally {
+      status.hidden = false;
+      button.disabled = false;
+      button.textContent = 'Send enquiry';
+    }
+  });
+})();
+</script></body></html>
