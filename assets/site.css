@@ -8,3 +8,27 @@
 .property-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.property-card{background:white;border:1px solid var(--line);overflow:hidden}.property-card a{text-decoration:none;display:block;height:100%}.property-card img{width:100%;height:235px;object-fit:cover}.property-card-body{padding:20px}.property-card h3{font-size:1.3rem;margin:0 0 10px}.property-price{font-weight:700;color:var(--navy)}.property-card-body span{color:#805916;font-weight:700}@media(max-width:860px){.property-grid{grid-template-columns:1fr}}
 
 .property-photo-placeholder{height:235px;display:grid;place-items:center;background:linear-gradient(135deg,#10273b,#29475c);color:#e4c18b;font-family:Georgia,serif;font-size:1.55rem;letter-spacing:.06em}
+
+
+/* Independent Agent philosophy — retains the source document's hierarchy and section rhythm. */
+.independent-manifesto{background:#fff;border-top:1px solid var(--line)}
+.independent-intro{text-align:center;padding-top:85px;padding-bottom:90px}
+.independent-intro h2{color:var(--navy);margin:12px 0 5px}
+.independent-pronunciation{color:var(--muted);font-size:.98rem;margin:0 auto 42px}
+.independent-pronunciation span{display:block;font-style:italic}
+.independent-intro h3{font-size:clamp(1.7rem,3vw,2.35rem);color:#93671f;margin-bottom:24px}
+.independent-intro>p:not(.independent-pronunciation){max-width:670px;margin:15px auto;font-size:1.08rem}
+.independent-intro .independent-declaration{font-family:Georgia,serif;font-size:1.4rem!important;color:var(--navy);margin-top:32px!important}
+.independent-standards{padding-top:76px}
+.independent-section-heading{text-align:center;max-width:740px;margin:0 auto 48px}
+.independent-section-heading h2{margin:12px 0 20px}
+.independent-section-heading p{color:var(--muted);font-size:1.08rem}
+.independent-panel{background:#eaeef0;padding:45px clamp(24px,7vw,95px);margin:0 auto 38px;max-width:1000px}
+.independent-panel>h2{text-align:center;font-size:clamp(2rem,3.5vw,3.1rem);color:var(--navy);margin:0 0 28px}
+.independent-value{padding:25px 0;border-bottom:1px solid #c8d0d4;max-width:780px;margin:auto}
+.independent-value:last-child{border-bottom:0}
+.independent-value h3{color:#99712f;font-size:1.6rem;margin:0 0 12px}
+.independent-value p{margin:0;font-size:1.04rem;line-height:1.75}
+.independent-panel-light{background:#fff;border:1px solid var(--line)}
+.independent-panel-light .independent-value{border-bottom-color:var(--line)}
+@media(max-width:650px){.independent-intro{padding-top:55px;padding-bottom:55px}.independent-standards{padding-top:55px}.independent-panel{padding:30px 24px}.independent-value{padding:21px 0}}
