@@ -32,3 +32,7 @@
 .independent-panel-light{background:#fff;border:1px solid var(--line)}
 .independent-panel-light .independent-value{border-bottom-color:var(--line)}
 @media(max-width:650px){.independent-intro{padding-top:55px;padding-bottom:55px}.independent-standards{padding-top:55px}.independent-panel{padding:30px 24px}.independent-value{padding:21px 0}}
+
+/* Homepage Army of Help: show the complete wide group photograph without cropping. */
+.army-home-image{height:auto;min-height:0;background:transparent}
+.army-home-image img{display:block;width:100%;height:auto;object-fit:contain;object-position:center}
