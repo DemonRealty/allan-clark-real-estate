@@ -36,3 +36,12 @@
 /* Homepage Army of Help: show the complete wide group photograph without cropping. */
 .army-home-image{height:auto;min-height:0;background:transparent}
 .army-home-image img{display:block;width:100%;height:auto;object-fit:contain;object-position:center}
+
+/* Homepage Army of Help: narrow the copy column and give the uncropped photo priority. */
+.army-home-layout{max-width:1480px;grid-template-columns:minmax(260px,0.72fr) minmax(0,1.9fr);gap:clamp(24px,3vw,48px);align-items:center}
+.army-home-copy{max-width:365px}
+.army-home-copy h2{font-size:clamp(2.2rem,3.4vw,3.5rem)}
+.army-home-copy p{max-width:340px}
+.army-home-layout .army-home-image{width:100%;height:auto;min-height:0}
+.army-home-layout .army-home-image img{width:100%;height:auto;object-fit:contain}
+@media(max-width:860px){.army-home-layout{grid-template-columns:1fr;gap:28px}.army-home-copy{max-width:620px}.army-home-copy p{max-width:620px}}
